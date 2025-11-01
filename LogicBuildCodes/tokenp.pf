@@ -1,0 +1,5 @@
+     A          R TOKENR
+     A            TOKENID       10A         COLHDG('TOKEN')
+     A            TIMESTMP        Z         COLHDG('TIMESTAMP')
+                  ID             2A         COLHDG('ID')
+                K ID
