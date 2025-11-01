@@ -1,0 +1,45 @@
+     A*%%TS  SD  20250731  101914  VEMULA09    REL-V7R5M0  5770-WDS
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R CRSR                      SFL
+     A*%%TS  SD  20250724  151908  VEMULA09    REL-V7R5M0  5770-WDS
+     A            OPTN           1A  B  9  5
+     A            ENAME     R        O  9 12REFFLD(LOADR/ENAME DEVARVIND/CURSOR-
+     A                                      PF)
+     A            ENO       R        O  9 30REFFLD(LOADR/ENO DEVARVIND/CURSORPF)
+     A            EADDRS    R        O  9 45REFFLD(LOADR/EADDRS DEVARVIND/CURSO-
+     A                                      RPF)
+     A          R CRSRCTL                   SFLCTL(CRSR)
+     A*%%TS  SD  20250731  101914  VEMULA09    REL-V7R5M0  5770-WDS
+     A                                      CA03(03 'Exit')
+     A                                      PAGEUP(25 'Page Up')
+     A                                      PAGEDOWN(26 'Page Down')
+     A  50                                  SFLDSP
+     A  50                                  SFLDSPCTL
+     A N50                                  SFLCLR
+     A  51                                  SFLEND
+     A                                      SFLSIZ(0013)
+     A                                      SFLPAG(0013)
+     A                                  1 29'EMPLOYEE INFORMATION'
+     A                                      COLOR(WHT)
+     A                                  4  3'Select Options'
+     A                                      COLOR(WHT)
+     A                                  6  4'2=Edit'
+     A                                      COLOR(BLU)
+     A                                  6 14'4=Delete'
+     A                                      COLOR(BLU)
+     A                                  8  4'OPT'
+     A                                      COLOR(WHT)
+     A                                  8 12'EMPLOYEE NAME'
+     A                                      COLOR(WHT)
+     A                                  8 30'EMPLOYEE NO'
+     A                                      COLOR(WHT)
+     A                                  8 45'EMPLOYEE ADD'
+     A                                      COLOR(WHT)
+     A                                  1  2USER
+     A                                  1 61DATE
+     A                                      EDTCDE(Y)
+     A                                  2 61TIME
+     A            SRCH          15A  B  4 20CHGINPDFT(LC)
+     A                                      DSPATR(UL)
+     A                                      CHECK(LC)

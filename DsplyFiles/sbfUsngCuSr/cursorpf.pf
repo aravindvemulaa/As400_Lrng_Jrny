@@ -1,0 +1,5 @@
+     A          R LOADR
+     A            ENAME         15A         COLHDG('EMPLOYEE NAME')
+     A            ENO            5S 0       COLHDG('EMPLOYEE NO')
+     A            EADDRS        20A         COLHDG('EMPLOYEE ADDRESS')
+     A          K ENO
