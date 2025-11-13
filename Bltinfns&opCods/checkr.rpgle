@@ -1,5 +1,7 @@
       *=====================================================================
+
       * Program: CHECKR
+
       * Purpose: %CHECK finding character position
       * Description: Uses %CHECK to find first character NOT in set
       *              demonstrating validation of strings
